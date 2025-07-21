@@ -9,6 +9,7 @@ public class Javaday03 {
     System.out.println("Enter rows");
     Scanner sc= new Scanner(System.in);
     int n=sc.nextInt();
+     sc.close();
 
     for(int i=0;i<=n;i++){
         for(int j=0;j<i;j++){
